@@ -128,8 +128,8 @@ a {
 }
 
 .bio-photo {
-    width: 380px;
-    height: 570px;
+    width: 280px;
+    height: 420px;
     flex-shrink: 0;
 }
 
@@ -291,7 +291,7 @@ a {
     }
 
     .bio-photo {
-        width: 100%;
+        width: 60%;
         height: auto;
         aspect-ratio: 1667 / 2500;
         order: -1;
@@ -320,7 +320,8 @@ a {
     }
 
     .project-image {
-        height: 240px;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 }
 
@@ -357,7 +358,4 @@ a {
         max-height: 500px;
     }
 
-    .project-image {
-        height: 200px;
-    }
 }
